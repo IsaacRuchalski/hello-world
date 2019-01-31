@@ -1,10 +1,24 @@
 #paragraphe {
 
+	background-color : grey;
 
-	background-color : #0000aa;
-	
+
 	}
 	
+	
+#title {
+	
+	font-size : 2.5rem;
+	background-color : white;
+		overflow : hidden;
+		
+}
+
+#title:active{
+	
+	animation : pourquoi 500ms linear infinite;
+	
+}
 #paragraphe2{
 
 	background-color : white;
@@ -16,25 +30,201 @@
 
 	background-color: #aa0000;
 	
+		margin-bottom : 20px;
 	}
 	
+@keyframes pourquoi {
+	
+	
+	0% {
+		
+		transform : rotate(0deg);
+	
+		
+		rotate3d(0,0,0,0deg);
+		margin-left : 0.25vw;
+	}
+
+
+	
+	
+	50%{
+		
+		transform : skewY(50deg);
+		
+		transform : rotate(180deg);
+		margin-left : 50%;
+		
+	}
+	100%{
+		
+		
+		transform : rotate(360deg);
+		margin-left : 0.75vw;
+		left : 0;
+	}
+	
+	
+	
+}
 img{
 	
 	display : block;
 	text-align : center;
+	
 }	
+
+div{
+		
+
+	max-width : 700px;
+		margin: auto;
+}
 input{
 
-	margin : 10px;
-
+	margin : 5px;
+	font-size : 1em;
 }
 
 form{
 
-	background-size : cover;
-width : 700px;
-text-align : center;
-background-image: url('calais.jpg');
+
+vertical-align : middle;
 margin : auto;
 
+
 }
+input{
+	
+	width : 100px;
+	
+}
+body {
+	font-size : 1.6rem;
+	
+	margin-top : 100px;
+	display : block;
+	background-image: url('../TP2/bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow : hidden;
+}
+html {
+	
+	font-size : 10px;
+
+}
+header {
+	
+vertical-align : middle;
+	background-color: white;
+	width : 100%;
+
+	border : 5px solid white;
+	position : fixed;
+	top: 0;
+	left : 0;
+	display : block;
+	height : 50px;
+
+	text-align : center;
+	background-image: url('logo-iut.jpg');
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+	
+}
+#image {
+	
+	width : 200px;
+	margin : 0;
+	padding : 0;	
+}
+
+table {
+	
+	background-color: white;
+
+}
+.grey{
+	
+	
+}
+
+table {
+
+		margin: auto;
+}
+td,th,tr{
+
+	width : 30px;
+	
+}
+
+@media (max-width:1080px){
+	
+
+	
+}
+
+@media (min-device-aspect-ratio : 2){
+	
+#image{
+		
+		width : 200px;
+		
+}
+td,tr,th {
+	
+display : block;
+
+}
+
+
+}	
+@media (max-width:768px){
+	
+	td,tr,th, table,tbody {
+
+
+	width : 100%;
+	display : 	block;
+
+
+	}
+	table {
+		
+		border-collapse : collapse;
+		
+	}
+}
+	
+	
+@media (max-width:768px) and (orientation: portrait){
+	img {
+		
+			width : 100%;
+			
+	}
+
+
+	header {
+		
+		height : 100px;
+		
+	}
+	
+	
+	form {
+		
+		width : 300px;
+		text-align : right;
+		
+	}
+}
+
+@media (max-width:480px){
+	
+}
+
