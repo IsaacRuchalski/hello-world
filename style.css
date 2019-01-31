@@ -20,6 +20,21 @@
 	
 img{
 	
-	width : 20%;
-	
+	display : block;
+	text-align : center;
 }	
+input{
+
+	margin : 10px;
+
+}
+
+form{
+
+	background-size : cover;
+width : 700px;
+text-align : center;
+background-image: url('calais.jpg');
+margin : auto;
+
+}
